@@ -3,8 +3,8 @@
 export function seedDatabase(firebase) {
   const users = [
     {
-      userId: 'NhPa6JxauSV4GCPVRcsAlCMs1w42',
-      username: 'tizhe',
+      userId: '4EAS2HLhzHbwsZpx0vovzE47Tk43',
+      username: 'tizzle',
       fullName: 'Tizhe Paul',
       emailAddress: 'tizhepaul@gmail.com',
       following: ['2'],
@@ -17,25 +17,25 @@ export function seedDatabase(firebase) {
       fullName: 'John Okewu',
       emailAddress: 'okewujohn@gmail.com',
       following: [],
-      followers: ['NhPa6JxauSV4GCPVRcsAlCMs1w42'],
+      followers: ['4EAS2HLhzHbwsZpx0vovzE47Tk43'],
       dateCreated: Date.now()
     },
     {
       userId: '3',
-      username: 'dali',
-      fullName: 'Salvador Dalí',
-      emailAddress: 'salvador@dali.com',
+      username: 'sely',
+      fullName: 'Selpon Zwandor',
+      emailAddress: 'zwandorselpon01@gmail.com',
       following: [],
-      followers: ['NhPa6JxauSV4GCPVRcsAlCMs1w42'],
+      followers: ['4EAS2HLhzHbwsZpx0vovzE47Tk43'],
       dateCreated: Date.now()
     },
     {
       userId: '4',
-      username: 'orwell',
-      fullName: 'George Orwell',
-      emailAddress: 'george@orwell.com',
+      username: 'gospel',
+      fullName: 'Gospel Bongtur',
+      emailAddress: 'gospelbongtur24@gmail.com',
       following: [],
-      followers: ['NhPa6JxauSV4GCPVRcsAlCMs1w42'],
+      followers: ['4EAS2HLhzHbwsZpx0vovzE47Tk43'],
       dateCreated: Date.now()
     }
   ];
@@ -54,16 +54,16 @@ export function seedDatabase(firebase) {
         photoId: i,
         userId: '2',
         imageSrc: `/images/users/raphael/${i}.jpg`,
-        caption: 'Saint George and the Dragon',
+        caption: 'Tizhe and Friends',
         likes: [],
         comments: [
           {
-            displayName: 'dali',
-            comment: 'Love this place, looks like my animal farm!'
+            displayName: 'gopy',
+            comment: 'Love Nigeria ! we should visit yankari game reserve '
           },
           {
-            displayName: 'orwell',
-            comment: 'Would you mind if I used this picture?'
+            displayName: 'Selly',
+            comment: 'This picture is dope can i use it'
           }
         ],
         userLatitude: '40.7128°',
@@ -72,3 +72,6 @@ export function seedDatabase(firebase) {
       });
   }
 }
+
+
+// 4EAS2HLhzHbwsZpx0vovzE47Tk43
